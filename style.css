@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bodynih {
+  /* Set background image */
+  background-image: url("gambar/wallpapersden.com_cool-4k-pattern_3840x2160.jpg");
+  /* Atur tata letak gambar */
+  background-size: cover; /* Penyesuaian ukuran gambar */
+  background-position: center; /* Posisi gambar di tengah */
+  background-repeat: no-repeat; /* Jangan ulangi gambar */
+  background-attachment: fixed; /* Opsional: gambar tetap di tempat saat menggulir */
+  /* Atur tinggi minimum untuk memastikan gambar terlihat */
+  min-height: 100vh; /* Tinggi minimum adalah 100% dari viewport height */
+}
+
+.card_1 {
+  background-color: aqua;
+  background-position: center;
+  border-radius: 20px;
+  width: 50vh;
+  height: 50vh;
+}
+
+/* WLKR */
+.offcanvas-header:hover {
+  cursor: default;
+}
+.offcanvas-header {
+  height: 56px;
+}
+
+/* dalam button */
+/* .navbar-brand {
+  transition: color 0.3s ease-in-out;
+} */
+.navbar-brand:hover {
+  cursor: default;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+.clicked {
+  color: #000000; /* Warna emas terang */
+  /* text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #ffd700,
+    0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 50px #ffd700; */
+  text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #ffd700,
+    0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 50px #ffd700; /* Efek bersinar */
+}
+
+/* transition: color 0.3s ease-in-out; */
+/* color: red; */
+/* .navbar-brand:hover:hover + .navbar-brand{
+  color: blue;
+} */
+
+/* circle */
+/* background-color: white; */
+/* box-shadow: 0 0 20px 10px rgba(255, 255, 255, 500); */
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle:hover {
+  opacity: 0%;
+  /* width: 210px;
+  height: 210px; */
+  transition: 1s;
+}
+.circle:not(:hover) {
+  transition: 1s;
+}
+.circle2 {
+  width: 200px;
+  height: 200px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 45%;
+}
+.circle2:hover {
+  opacity: 0%;
+  transition: 1s;
+}
+.circle2:not(:hover) {
+  transition: 1s;
+}
+/* .circle3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* bar bawah activity */
+.dropdown-menu {
+  background-color: aqua;
+}
+.dropdown-divider {
+  background-color: aqua;
+}
+.dropdown-item {
+  border-radius: 20px;
+  width: 32%;
+  padding-left: 12px;
+}
+.dropdown-item:hover {
+  transition-duration: 0.5s;
+}
+
+/* walk in piece */
+/* top: 53%; */
+/* border-radius: 50%; */
+.walkinpiece {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  color: rgb(255, 255, 255);
+  opacity: 0%;
+}
+
+/* @media screen and (min-width: 600px) {
+  .walkinpiece {
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 500px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    color: rgb(255, 255, 255);
+    opacity: 0%;
+  }
+}
+/* border-radius: 50%; */
+/* @media screen and (max-width: 480px) {
+  .walkinpiece {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    opacity: 0%;
+  }
+}  */
+
+.walkinpiece:hover {
+  opacity: 100%;
+  transition: 1s;
+  /* width: 500px;
+  height: 100px; */
+  cursor: default;
+}
+.walkinpiece:not(:hover) {
+  transition: 1s;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* instagram page */
+.igwlkr {
+  width: 200px;
+  height: 200px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  /* font-size: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 45%;
+}
+.igwlkr:hover {
+  opacity: 100%;
+  transition: 1s;
+}
+.igwlkr:not(:hover) {
+  transition: 1s;
+}
+
+.instagramwlkr {
+  height: 80px;
+  width: 300px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  color: rgb(255, 255, 255);
+  opacity: 0%;
+}
+.instagramwlkr:hover {
+  opacity: 100%;
+  cursor: default;
+  transition: 1s;
+}
+.instagramwlkr:not(:hover) {
+  transition: 1s;
+}
+/* //////////////////////// */
+.circleAbout1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circleAbout1:hover {
+  opacity: 0%;
+  /* width: 210px;
+  height: 210px; */
+  transition: 1s;
+}
+.circleAbout1:not(:hover) {
+  transition: 1s;
+}
+
+.circleAbout2_text:hover {
+  cursor: default;
+}
+.circleAbout2_text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fdfdfd;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.circleAbout2 {
+  width: 130px;
+  height: 50px;
+  /* color: aliceblue; */
+  background-color: blue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 50%;
+}
+/* .circleAbout2:hover {
+  opacity: 100%;
+  transition: 1s;
+} */
+/* .circleAbout2:not(:hover) {
+  transition: 1s;
+} */
+
+.carousel {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* opacity: 10%; */
+  transform: translate(-50%, -40%);
+  background: #ffffff;
+}
+
+.carousel-inner {
+  border-radius: 20px;
+}
